@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Sora:wght@300;400;500;600;700&display=swap');
+
+body {
+	@apply bg-cgray text-gray-50 font-sora
+}
+
+.container {
+	@apply mx-auto px-5 lg:px-20
+}
+
+::-webkit-scrollbar-thumb{
+	border-radius: 9999px !important;
+}
